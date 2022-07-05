@@ -31,7 +31,7 @@ h1 {
 .flexible-content {
     display: flex;
     margin-bottom: 150px;
-    
+
 }
 
 .top-banner {
@@ -49,18 +49,54 @@ h1 {
     padding: 10px 40px;
     border-radius: 30px;
 }
-.para{
+
+.para {
     padding-right: 30px;
     padding-bottom: 50px;
 }
+
 .food-side {
     background-image: url(images/invert-removebg-preview.png);
     background-repeat: no-repeat;
     background-position: right;
 }
-.salad{
+
+.salad img {
+    width: 80%;
+    padding: 42px;
+    border-radius: 15px;
+}
+
+.salad {
     width: 40%;
-    padding-left: 5%;
-    padding-right: 5%;
-    
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    box-shadow: 9px 23px 69px gray;
+    border-radius: 38px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.recipe-area h1{
+  text-align: center;
+  font-weight: 700;
+}
+.details{
+	padding-left: 283px;
+	padding-right: 283px;
+	text-align: center;
+}
+.recipe-area{
+     background-image: url(images/left.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#cool-border{
+    border-top: 7px solid #0692F7;
+    border-bottom: 7px solid #0692F7;
+}
+
+#nice-border{
+    border-top: 7px solid #55b8e0;
+    border-bottom: 7px solid #55b8e0;
 }
